@@ -1,0 +1,180 @@
+@media screen and (max-width: 768px) {
+
+    .nft_header {
+        align-items: center;
+    }
+
+    .nft_header .nft_header-right {
+        display: none;
+    }
+
+    .nft_header .icon-bar-responsive {
+        display: block;
+    }
+
+
+    .nft_userInfo .nft_userInfo-top {
+        flex-direction: column;
+    }
+
+    .nft_userInfo .nft_userInfo-top h2 {
+        margin-bottom: 30px;
+        font-size: 5vw;
+    }
+
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-param {
+        width: 62%;
+    }
+
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-param div p.param {
+        font-size: 2.5vw;
+    }
+
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-param div p.text,
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-bio h5,
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-bio p,
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-links h5 {
+        font-size: 2vw;
+    }
+
+    /* CSS responsive tab  */
+
+    .nft_tab h5 {
+        font-size: 2vw;
+    }
+
+    .nft_tab p {
+        font-size: 1.7vw;
+    }
+
+
+    .nft_cardSection {
+        grid-template-columns: 48% 48%;
+    }
+
+
+    .nft_footer .nft_footer-info {
+        flex-direction: column;
+    }
+
+    .nft_footer .nft_footer-info {
+        padding: 0 0 30px;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item1,
+    .nft_footer .nft_footer-info .nft_footer-info-item2 {
+        margin-bottom: 30px;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 {
+        padding-left: 0px;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item1 p {
+        width: 100%;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 p {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 418px) {
+
+
+
+    .nft_header {
+        padding: 15px 30px;
+    }
+
+
+    .nft_profileImage img {
+        left: 34%;
+    }
+
+
+    .nft_userInfo .nft_userInfo-top h2 {
+        font-size: 7vw;
+    }
+
+    .nft_userInfo .nft_userInfo-top .nft_userInfo-top-button button:nth-child(1),
+    .nft_userInfo .nft_userInfo-top .nft_userInfo-top-button button:nth-child(2) {
+        justify-content: center;
+        font-size: 4vw;
+    }
+
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-param {
+        width: 100%;
+    }
+
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-param div p.param {
+        font-size: 4.5vw;
+    }
+
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-param div p.text,
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-bio h5,
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-bio p,
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-links h5 {
+        font-size: 4.5vw;
+    }
+
+    .nft_userInfo .nft_userInfo-top .nft_userInfo-top-button {
+        flex-direction: column;
+    }
+
+    .nft_userInfo .nft_userInfo-top .nft_userInfo-top-button button:nth-child(2) {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /* CSS responsive tab  */
+
+    .nft_tab p {
+        display: none;
+    }
+
+    .nft_tab h5 {
+        font-size: 4.5vw;
+    }
+
+
+    .nft_cardSection {
+        grid-template-columns: 100%;
+    }
+
+    /* CSS footer   */
+
+    .nft_footer {
+        padding: 40px 8%;
+    }
+
+    .nft_footer .nft_footer-info {
+        padding: 0 0 30px;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 div input {
+        width: 100%;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 div button {
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 div button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nft_footer .nft_footer-info .nft_footer-info-item3 div button i {
+        display: block;
+        margin-right: 12px;
+    }
+}
